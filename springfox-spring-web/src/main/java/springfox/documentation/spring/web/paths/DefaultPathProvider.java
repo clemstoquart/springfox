@@ -58,11 +58,11 @@ public class DefaultPathProvider implements PathProvider {
   }
 
   /**
-   * Corresponds to the path attribute of a swagger Resource Object (within a Resource  Listing).
+   * Corresponds to the path attribute of a swagger EntityModel Object (within a EntityModel  Listing).
    * <p>
    * This method builds a URL based off of
    *
-   * @param groupName      the group name for this Resource Object e.g. 'default'
+   * @param groupName      the group name for this EntityModel Object e.g. 'default'
    * @param apiDeclaration the identifier for the api declaration e.g 'business-controller'
    * @return the resource listing path
    * @see DefaultPathProvider#getDocumentationPath()

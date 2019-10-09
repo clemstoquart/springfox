@@ -48,7 +48,7 @@ class DocumentationPluginsManagerSpec extends Specification {
       sut.documentationPlugins().size() == 1
   }
 
-  def "Resource grouping strategy is defaulted to use SpringResourceGroupingStrategy" () {
+  def "EntityModel grouping strategy is defaulted to use SpringResourceGroupingStrategy" () {
     given:
       def sut = defaultWebPlugins()
     expect:

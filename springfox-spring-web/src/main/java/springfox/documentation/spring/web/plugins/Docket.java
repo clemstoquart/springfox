@@ -317,7 +317,7 @@ public class Docket implements DocumentationPlugin {
 
   /**
    * Controls how ApiListingReference's are sorted.
-   * i.e the ordering of the api's within the swagger Resource Listing.
+   * i.e the ordering of the api's within the swagger EntityModel Listing.
    * The default sort is Lexicographically by the ApiListingReference's path
    * <p>
    * NOTE: @see <a href="https://github.com/springfox/springfox/issues/732">#732</a> in case you're wondering why

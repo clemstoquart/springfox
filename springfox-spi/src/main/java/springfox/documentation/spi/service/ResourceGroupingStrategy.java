@@ -39,7 +39,7 @@ public interface ResourceGroupingStrategy extends Plugin<DocumentationType> {
    *
    * @param requestMappingInfo request mapping info
    * @param handlerMethod      handler method
-   * @return Resource group uris.
+   * @return EntityModel group uris.
    * @see <code>ApiListingReferenceScanner</code>
    */
   Set<ResourceGroup> getResourceGroups(RequestMappingInfo requestMappingInfo, HandlerMethod handlerMethod);

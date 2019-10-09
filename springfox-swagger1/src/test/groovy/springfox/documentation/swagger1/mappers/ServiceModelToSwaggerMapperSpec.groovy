@@ -150,7 +150,7 @@ class ServiceModelToSwaggerMapperSpec extends Specification implements MapperSup
               builtOperation.responseMessages.first().responseModel.type
   }
 
-  def "Resource listings are mapped correctly"() {
+  def "EntityModel listings are mapped correctly"() {
     given:
       def built = new ResourceListingBuilder()
                   .apis([new ApiListingReference("test", "test description", 1)])
@@ -184,7 +184,7 @@ class ServiceModelToSwaggerMapperSpec extends Specification implements MapperSup
       mapped.info.title == built.info.title
   }
 
-  def "Resource listings are mapped correctly with authorizations"() {
+  def "EntityModel listings are mapped correctly with authorizations"() {
     given:
       def built = new ResourceListingBuilder()
               .apis([new ApiListingReference("test", "test description", 1)])
